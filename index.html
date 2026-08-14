@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Michael King deploys AI and enterprise systems into physical operations. Production systems, industrial robotics, and governed software.">
+  <meta name="description" content="Michael King is a mechanical engineer who deploys AI and enterprise software into industrial operations.">
   <meta name="theme-color" content="#171714">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'">
-  <title>Michael King · Industrial Systems Architect</title>
+  <title>Michael King | Mechanical Engineer Deploying Industrial Systems</title>
   <link rel="canonical" href="https://michaelking.systems/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Michael King · Industrial Systems Architect">
-  <meta property="og:description" content="AI and enterprise systems deployed into physical operations, with evidence that they hold.">
+  <meta property="og:title" content="Michael King | Mechanical Engineer Deploying Industrial Systems">
+  <meta property="og:description" content="AI and enterprise software deployed into industrial operations, with evidence from production.">
   <meta property="og:url" content="https://michaelking.systems/">
   <meta property="og:image" content="https://michaelking.systems/og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Michael King, industrial systems architect">
+  <meta property="og:image:alt" content="Michael King, mechanical engineer deploying industrial systems">
   <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
@@ -26,252 +26,217 @@
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="Michael King, home"><span>MK</span><b>Michael King</b></a>
     <nav aria-label="Primary navigation">
-      <a href="#work">Selected work</a>
+      <a href="#flagship">Flagship</a>
+      <a href="#systems">Systems</a>
       <a href="#method">Method</a>
-      <a href="#about">About</a>
+      <a href="/resume.pdf">Resume (PDF)</a>
     </nav>
-    <a class="header-link" href="https://github.com/mlawsonking" target="_blank" rel="noreferrer">GitHub ↗</a>
+    <a class="header-link" href="mailto:mlawsonking@gmail.com">Email</a>
   </header>
 
   <main id="main">
     <section class="hero" id="top">
-      <div class="hero-meta">
-        <span>Industrial systems architect</span>
-        <span>Production AI operator</span>
-        <span>Boerne, Texas · USA</span>
-      </div>
-
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <p class="section-tag">PHYSICAL OPERATIONS → ENFORCEABLE SOFTWARE</p>
-          <h1>Industrial systems architect. I deploy AI and enterprise systems into physical operations, <em>and they hold.</em></h1>
-          <p class="hero-credential">Mechanical engineer (B.S., summa cum laude) · 5 years inside a robotics manufacturer · production AI operator</p>
-          <p class="hero-deck">I find expensive, failure-prone operational work and turn it into governed software: configuration systems, physical-AI infrastructure, auditable data products, and tools that expose failure.</p>
-          <div class="hero-actions">
-            <a class="button" href="#work">See the evidence ↓</a>
-            <a class="text-link" href="https://www.linkedin.com/in/mlawsonking/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Physical operations -&gt; enforceable software</p>
+        <h1>Mechanical engineer deploying AI and enterprise software into industrial operations.</h1>
+        <p class="hero-deck">Five years inside a robotics manufacturer. Customer deployments in the US and EU. I build and operate the production systems that carry engineering, production, supply chain, and external builders, and they hold.</p>
+        <div class="actions" aria-label="Primary actions">
+          <a class="action" href="#flagship">View flagship deployment</a>
+          <a class="action" href="/resume.pdf">Resume (PDF)</a>
+          <a class="action" href="mailto:mlawsonking@gmail.com">Email</a>
         </div>
-
-        <aside class="hero-plate" aria-label="Operating profile">
-          <div class="plate-top"><span>OPERATING PROFILE</span><span>01 / 05</span></div>
-          <div class="plate-mark">MK</div>
-          <dl>
-            <div><dt>Domain</dt><dd>Industrial robotics</dd></div>
-            <div><dt>Edge</dt><dd>Physical + software</dd></div>
-            <div><dt>Mode</dt><dd>Owner / architect</dd></div>
-            <div><dt>Bias</dt><dd>Evidence over theater</dd></div>
-            <div><dt>Field</dt><dd>Commissioned robotic systems on customer sites in the US and EU; field lessons converted into runbooks</dd></div>
-            <div><dt>Incident</dt><dd>Built the liveness watchdog for my own production pipelines after a silent scheduler failure; its first real catch paged in 1 hour 46 minutes on a failure class that was previously invisible</dd></div>
-          </dl>
-          <div class="plate-status"><i></i> Deploying in production</div>
-        </aside>
+        <p class="hero-proof"><strong>24</strong> idempotent production migrations through a twice-migrated candidate sandbox</p>
       </div>
-
-      <div class="capability-strip" aria-label="Deployment engineering capabilities">
-        <span>Physical engineering background</span>
-        <span>Production data and AI systems in Python</span>
-        <span>Integrations across disparate enterprise systems</span>
-        <span>Secure, permissioned environments</span>
-        <span>Live incident response and root-cause analysis</span>
-      </div>
-
-      <div class="proof-strip" aria-label="Selected quantified impact">
-        <div><strong><small>estimated</small>~200<small>hours</small></strong><p>estimated manual package assembly removed per machine*</p></div>
-        <div><strong><small>modeled</small>$43K-56K</strong><p>modeled annual capacity recovered at current run rate*</p></div>
-        <div><strong>33.5K</strong><p>line production application footprint</p></div>
-        <div><strong>243</strong><p>commits across a 5.5-month solo build</p></div>
-      </div>
-      <p class="proof-note">*Owner-provided prior-effort inputs. Financial impact is a modeled capacity estimate, not audited savings.</p>
     </section>
 
-    <section class="case-study" id="work">
-      <div class="section-intro">
-        <p class="section-tag">01 / FLAGSHIP SYSTEM</p>
-        <h2>A production operating system for a configurable industrial machine.</h2>
-        <p>Not a demo. Not a dashboard over a spreadsheet. A governed system that changed how Product, Engineering, external builders, and Operations hand work across the InductOne lifecycle.</p>
+    <section class="deployment-record" aria-labelledby="deployment-title">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Deployment record</p>
+        <h2 id="deployment-title">Evidence from the field and production.</h2>
+      </div>
+      <dl class="record-table">
+        <div><dt>Customer sites</dt><dd>Commissioned robotic systems in the US and EU; field lessons converted into runbooks</dd></div>
+        <div><dt>Production system</dt><dd>One governed lifecycle from engineering configuration through installed base, serving four internal functions and external contract builders</dd></div>
+        <div><dt>Deployment discipline</dt><dd>24 idempotent migrations through a twice-migrated candidate sandbox; zero rollbacks</dd></div>
+        <div><dt>Live operations</dt><dd>Liveness watchdog built after a silent scheduler failure; first real catch paged in 1 hour 46 minutes</dd></div>
+        <div><dt>Access model</dt><dd>11 server-enforced roles including row-scoped external suppliers</dd></div>
+      </dl>
+    </section>
+
+    <section class="flagship" id="flagship" aria-labelledby="flagship-title">
+      <div class="section-heading flagship-heading">
+        <div>
+          <p class="eyebrow">Flagship deployment</p>
+          <h2 id="flagship-title">InductOne Tools</h2>
+        </div>
+        <p>A governed ERPNext and Frappe lifecycle for a configurable industrial machine. Designed, built, migrated, administered, and supported in production by one owner.</p>
       </div>
 
-      <article class="inductone-card">
-        <div class="case-heading">
+      <article class="case-study">
+        <section class="case-part">
+          <p class="case-label">01 / Problem</p>
           <div>
-            <p class="status-row"><i></i> Production system · Private implementation</p>
-            <h3>InductOne Tools</h3>
-            <p>ERPNext / Frappe configuration, builder handoff, and installed-base operations</p>
+            <h3>A recurring cross-functional scramble.</h3>
+            <p>Product and Engineering manually assembled every builder package. The prior process consumed an estimated 200 hours of constrained senior Product and Engineering work per machine.</p>
           </div>
-          <div class="case-role"><span>ROLE</span><b>Owner / Architect</b><span>INDUSTRIAL ROBOTICS</span></div>
-        </div>
+        </section>
 
-        <div class="before-after">
+        <section class="case-part">
+          <p class="case-label">02 / System deployed</p>
           <div>
-            <span class="micro-label">BEFORE / CROSS-FUNCTIONAL SCRAMBLE</span>
-            <p>Product and Engineering manually assembled every builder package. The estimated 200 hours of prior effort came from constrained senior work per machine.</p>
+            <h3>One governed lifecycle.</h3>
+            <p>Selected configuration becomes controlled engineering state, a bespoke builder package, accepted as-built records, and a durable installed base.</p>
+            <ol class="stage-list" aria-label="InductOne lifecycle stages">
+              <li><span>01</span>Configuration</li>
+              <li><span>02</span>Engineering gates</li>
+              <li><span>03</span>Builder package</li>
+              <li><span>04</span>As-built acceptance</li>
+              <li><span>05</span>Installed base</li>
+            </ol>
           </div>
-          <div class="change-arrow" aria-hidden="true">→</div>
-          <div class="after">
-            <span class="micro-label">AFTER / GENERATED FROM GOVERNED STATE</span>
-            <p>Each package is generated for the selected configuration. Product and Engineering package-assembly effort approaches zero. The same engine now produces RFQ packages.</p>
-          </div>
-        </div>
+        </section>
 
-        <div class="system-map" aria-label="InductOne lifecycle system map">
-          <p class="map-label">SYSTEM SPAN</p>
-          <ol>
-            <li><b>01</b>Configuration</li>
-            <li><b>02</b>Engineering gates</li>
-            <li><b>03</b>Builder package</li>
-            <li><b>04</b>As-built acceptance</li>
-            <li><b>05</b>Installed base</li>
-          </ol>
-        </div>
+        <section class="artifact-grid" aria-label="InductOne system artifacts">
+          <figure class="artifact">
+            <figcaption><span>Artifact A</span>Lifecycle and release gates</figcaption>
+            <svg viewBox="0 0 820 210" role="img" aria-labelledby="lifecycle-title lifecycle-desc">
+              <title id="lifecycle-title">InductOne governed lifecycle</title>
+              <desc id="lifecycle-desc">Five lifecycle stages connected by four engineering and acceptance gates.</desc>
+              <line x1="80" y1="98" x2="740" y2="98" class="svg-line"/>
+              <g class="svg-stage" transform="translate(20 52)"><rect width="120" height="92" rx="4"/><text x="60" y="38">01</text><text x="60" y="62">Configuration</text></g>
+              <g class="svg-gate" transform="translate(154 82)"><path d="M16 0 32 16 16 32 0 16Z"/><text x="16" y="52">gate</text></g>
+              <g class="svg-stage" transform="translate(190 52)"><rect width="120" height="92" rx="4"/><text x="60" y="38">02</text><text x="60" y="62">Engineering</text><text x="60" y="76">sign-off</text></g>
+              <g class="svg-gate" transform="translate(324 82)"><path d="M16 0 32 16 16 32 0 16Z"/><text x="16" y="52">gate</text></g>
+              <g class="svg-stage" transform="translate(360 52)"><rect width="120" height="92" rx="4"/><text x="60" y="38">03</text><text x="60" y="62">Builder</text><text x="60" y="76">package</text></g>
+              <g class="svg-gate" transform="translate(494 82)"><path d="M16 0 32 16 16 32 0 16Z"/><text x="16" y="52">gate</text></g>
+              <g class="svg-stage" transform="translate(530 52)"><rect width="120" height="92" rx="4"/><text x="60" y="38">04</text><text x="60" y="62">As-built</text><text x="60" y="76">acceptance</text></g>
+              <g class="svg-gate" transform="translate(664 82)"><path d="M16 0 32 16 16 32 0 16Z"/><text x="16" y="52">gate</text></g>
+              <g class="svg-stage final-stage" transform="translate(700 52)"><rect width="100" height="92" rx="4"/><text x="50" y="38">05</text><text x="50" y="62">Installed</text><text x="50" y="76">base</text></g>
+            </svg>
+          </figure>
 
-        <div class="system-grid">
-          <div><strong>40</strong><p>server-side API methods enforcing process rules</p></div>
-          <div><strong>~50</strong><p>custom DocTypes across the build lifecycle</p></div>
-          <div><strong>24</strong><p>sequential, idempotent migration patches</p></div>
-          <div><strong>11</strong><p>roles, including row-scoped external builders</p></div>
-        </div>
+          <figure class="artifact">
+            <figcaption><span>Artifact B</span>Permission boundary</figcaption>
+            <svg viewBox="0 0 820 210" role="img" aria-labelledby="permission-title permission-desc">
+              <title id="permission-title">Internal and external permission boundary</title>
+              <desc id="permission-desc">Internal roles work across governed records while external builders see only assigned machines through a server-enforced boundary.</desc>
+              <rect x="20" y="36" width="462" height="144" rx="4" class="svg-zone"/>
+              <text x="42" y="62" class="svg-zone-label">Internal roles</text>
+              <g class="svg-role"><rect x="42" y="84" width="92" height="48" rx="3"/><text x="88" y="113">Product</text></g>
+              <g class="svg-role"><rect x="145" y="84" width="102" height="48" rx="3"/><text x="196" y="113">Engineering</text></g>
+              <g class="svg-role"><rect x="258" y="84" width="104" height="48" rx="3"/><text x="310" y="113">Supply chain</text></g>
+              <g class="svg-role"><rect x="373" y="84" width="88" height="48" rx="3"/><text x="417" y="113">Operations</text></g>
+              <line x1="510" y1="26" x2="510" y2="190" class="svg-wall"/>
+              <text x="526" y="48" class="svg-zone-label">Server-enforced wall</text>
+              <path d="M482 108H552" class="svg-arrow"/>
+              <path d="m546 102 8 6-8 6" class="svg-arrow"/>
+              <rect x="570" y="70" width="230" height="96" rx="4" class="svg-external"/>
+              <text x="685" y="102" class="svg-external-title">External builders</text>
+              <text x="685" y="126" class="svg-external-copy">Assigned machines only</text>
+              <text x="685" y="145" class="svg-external-copy">Row-scoped permissions</text>
+            </svg>
+          </figure>
+        </section>
 
-        <div class="case-detail-grid">
+        <section class="case-part">
+          <p class="case-label">03 / My responsibility</p>
           <div>
-            <span class="micro-label">WHAT THE CODE ENFORCES</span>
-            <ul class="feature-list">
-              <li>Configurable, hierarchical BOM builds and repo-governed snapshots</li>
-              <li>Engineering signoff, release gates, and controlled change</li>
-              <li>External-builder permissions scoped to assigned machines</li>
-              <li>Atomic serial allocation and as-built acceptance</li>
-              <li>Installed-base records and compatibility-aware service operations</li>
-              <li>Migration, test, deployment, and sandbox discipline</li>
-            </ul>
+            <h3>Sole architect, developer, and administrator.</h3>
+            <p>I also hold the Operations sign-off on releases. Every requirement is traced to linked evidence before approval. Teams route through that gate willingly: the no is always evidence, never opinion, and resolutions are worked jointly with the owning team.</p>
           </div>
-          <blockquote><span>THE THESIS</span>“Providing a builder’s build package was a cross-functional scramble. It is now zero manual package-assembly effort.”</blockquote>
-        </div>
+        </section>
 
-        <div class="deployment-note">
-          <span class="micro-label">DEPLOYMENT, NOT JUST DESIGN</span>
-          <p>The platform serves engineering, production, supply chain, and external contract builders under row-scoped permissions. Rollout ran through 24 idempotent migration patches and a twice-migrated candidate sandbox before production. I hold the Operations sign-off on the product's software releases: every requirement traced to linked evidence before approval. I also support it live: diagnosis runs on records, snapshots, and diffs against the system of record. Teams route through that gate willingly: the no is always evidence, never opinion, and resolutions are worked jointly with the owning team.</p>
-        </div>
+        <section class="case-part">
+          <p class="case-label">04 / Production rollout</p>
+          <div>
+            <h3>Migration, rehearsal, and scoped access.</h3>
+            <p>Rollout ran through 24 idempotent migrations, a twice-migrated candidate sandbox, persona-based execution harnesses, and external-builder onboarding under row-scoped permissions.</p>
+          </div>
+        </section>
 
-        <p class="provenance"><b>Evidence note.</b> Footprint figures are measured from the private repository. The estimated 200-hour prior process and compensation inputs are owner-provided. The modeled $43K-56K annual figure assumes four machines. It is not an audited realized-savings claim.</p>
+        <section class="case-part impact-part">
+          <p class="case-label">05 / Impact</p>
+          <div>
+            <h3>Manual package assembly became generated output.</h3>
+            <div class="impact-grid">
+              <div><strong>estimated 200 hours</strong><p>removed per machine</p></div>
+              <div><strong>modeled $43K-56K</strong><p>annual recovered capacity at the current run rate</p></div>
+            </div>
+            <p>The same engine now produces RFQ packages. Financial impact is a modeled capacity estimate, not audited savings.</p>
+            <p class="evidence-line"><b>Repository evidence:</b> about 33.5K lines, ~50 DocTypes, 40 server-side API methods; sole developer, 5.5 months.</p>
+          </div>
+        </section>
       </article>
     </section>
 
-    <section class="projects-section" aria-labelledby="public-work-title">
-      <div class="section-intro compact">
-        <p class="section-tag">02-04 / PUBLIC WORK</p>
-        <h2 id="public-work-title">The same operating pattern, under different constraints.</h2>
-        <p>The portfolio is broad on purpose. The through-line is making ambiguous systems legible, enforceable, observable, and honest.</p>
+    <section class="selected-systems" id="systems" aria-labelledby="systems-title">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Selected systems</p>
+        <h2 id="systems-title">The same operating pattern under different constraints.</h2>
       </div>
-
-      <div class="project-list">
-        <article class="project-row">
-          <div class="project-number">02</div>
-          <div class="project-main">
-            <p class="project-eyebrow">Public-interest measurement system</p>
-            <h3>OnScript</h3>
-            <p class="project-status">Live · Public beta</p>
-            <p class="project-description">A daily, symmetric measurement instrument for Congressional language, with receipts. It separates deterministic measurement from bounded AI interpretation. It publishes its methodology and exposes operational state.</p>
-            <p class="facts-line"><b>285 Python files</b> · <b>134 test files</b> · <b>7 scheduled workflows</b></p>
-            <p class="tech-line">Python · Data systems · LLM boundaries · Observability</p>
-            <p class="project-links"><a href="https://onscript.news" target="_blank" rel="noreferrer">Visit onscript.news ↗</a><a href="https://github.com/mlawsonking/onscript" target="_blank" rel="noreferrer">Inspect the source ↗</a></p>
-          </div>
-          <div class="evidence-panel signal-panel" aria-hidden="true"><span>DAILY INSTRUMENT / 06:00 UTC</span><b>SYMMETRIC</b><i></i><i></i><i></i><i></i><i></i><small>METHOD: PUBLIC</small></div>
+      <div class="system-rows">
+        <article>
+          <div><h3>OnScript</h3><p class="capability-label">Production data pipelines, bounded AI, observability</p></div>
+          <p>A daily, symmetric measurement instrument for Congressional language, with receipts. It separates deterministic measurement from bounded AI interpretation while publishing its methodology and operational state.</p>
+          <div class="row-links"><a href="https://onscript.news/" target="_blank" rel="noreferrer">Live site</a><a href="https://github.com/mlawsonking/onscript" target="_blank" rel="noreferrer">Source</a></div>
         </article>
-
-        <article class="project-row">
-          <div class="project-number">03</div>
-          <div class="project-main">
-            <p class="project-eyebrow">Economic telemetry laboratory</p>
-            <h3>The Exhaust</h3>
-            <p class="project-status">Open source · Research</p>
-            <p class="project-description">A collection of public-data collectors and preregistered retrocasts built to test whether overlooked physical-world exhaust can say something useful about the economy. Failed hypotheses stay visible. The point is not a prettier forecast. It is a more falsifiable one.</p>
-            <p class="facts-line"><b>192 files</b> · <b>21 test files</b> · <b>12 automation workflows</b></p>
-            <p class="tech-line">NHTSA · CMS · WARN · CPSC · Reproducible research</p>
-            <p class="project-links"><a href="https://github.com/mlawsonking/theexhaust" target="_blank" rel="noreferrer">Inspect the source ↗</a></p>
-          </div>
-          <div class="evidence-panel list-panel" aria-hidden="true"><span>PHYSICAL-WORLD EXHAUST / SERIES</span><p>NHTSA registrations <b>LIVE</b></p><p>WARN notices <b>LIVE</b></p><p>CPSC recalls <b>LIVE</b></p><p>retrocast H-04 <b>FAILED HONESTLY</b></p><small>PREREGISTERED · NO BACKFILLING</small></div>
+        <article>
+          <div><h3>Agent Guards</h3><p class="capability-label">Deterministic controls, packaging, distribution surfaces</p></div>
+          <p>Deterministic tripwires produce reproducible evidence for known patterns across agent inputs, files, diffs, email, and packages. The system ships as an MCP server, API, and installable plugin; it is a tripwire, not a comprehensive security product.</p>
+          <div class="row-links"><a href="https://github.com/mlawsonking/MCP" target="_blank" rel="noreferrer">Source</a></div>
         </article>
-
-        <article class="project-row">
-          <div class="project-number">04</div>
-          <div class="project-main">
-            <p class="project-eyebrow">Deterministic safety tripwire</p>
-            <h3>Agent Guards</h3>
-            <p class="project-status">Open source · Packaged</p>
-            <p class="project-description">Deterministic tripwires that produce reproducible evidence for known patterns. They check agent inputs, files, diffs, email, and packages. The system ships as an MCP server, API, and installable plugin. It is a tripwire, not a comprehensive security product.</p>
-            <p class="facts-line"><b>598 repository files</b> · <b>MCP + API + plugin</b> · <b>32/40 public corpus cases caught</b></p>
-            <p class="tech-line">TypeScript · Python · MCP · Security tooling · CI</p>
-            <p class="project-links"><a href="https://github.com/mlawsonking/MCP" target="_blank" rel="noreferrer">Inspect the source ↗</a></p>
-          </div>
-          <div class="evidence-panel guard-panel" aria-hidden="true"><span>AGENT INPUT / LOCAL CHECK</span><p>SECRET <b>CAUGHT</b></p><p>INJECTION <b>CAUGHT</b></p><p>PACKAGE <b>CHECK</b></p><p>UNKNOWN <b>ESCALATE</b></p><small>DETERMINISTIC · FAIL CLOSED</small></div>
+        <article>
+          <div><h3>ForgeSense</h3><p class="capability-label">Hardware-to-interface systems thinking</p></div>
+          <p>Founder of an industrial vibration and edge-monitoring testbed spanning fixture, sensor, embedded compute, analysis, and operator interface. ADXL355, Raspberry Pi, Python analysis, Go edge service, and React with TypeScript.</p>
+          <span class="private-label">Private laboratory system</span>
+        </article>
+        <article>
+          <div><h3>The Exhaust</h3><p class="capability-label">Research discipline and honest negative results</p></div>
+          <p>Public-data collectors and preregistered retrocasts test whether overlooked physical-world exhaust says something useful about the economy. Failed hypotheses remain visible so the work stays falsifiable.</p>
+          <div class="row-links"><a href="https://github.com/mlawsonking/theexhaust" target="_blank" rel="noreferrer">Source</a></div>
         </article>
       </div>
     </section>
 
-    <section class="forge-section" aria-labelledby="forge-title">
-      <div class="forge-copy">
-        <p class="section-tag light">05 / PHYSICAL SYSTEMS LAB</p>
-        <h2 id="forge-title">ForgeSense</h2>
-        <p class="forge-lead">An industrial vibration and edge-monitoring testbed that closes the loop between fixture, sensor, embedded compute, analysis, and operator interface.</p>
-        <p class="forge-stack">ADXL355 · Raspberry Pi · Python analysis · Go edge service · React / TypeScript</p>
-        <p class="forge-note"><i></i> Founder · Experimental · Private laboratory system</p>
-      </div>
-      <ol class="forge-diagram" aria-label="ForgeSense architecture">
-        <li><span>01</span><b>Physical rig</b><small>repeatable excitation</small></li>
-        <li><span>02</span><b>Sensor edge</b><small>ADXL355 + Pi</small></li>
-        <li><span>03</span><b>Analysis</b><small>features + statistics</small></li>
-        <li><span>04</span><b>Interface</b><small>operator evidence</small></li>
-      </ol>
-    </section>
-
-    <section class="governed-ai-section" aria-labelledby="governed-ai-title">
-      <p class="section-tag">PRODUCTION AI</p>
-      <div>
-        <h2 id="governed-ai-title">AI in production, governed</h2>
-        <p>I run multi-agent AI workflows on business-critical work daily. The reason they can be trusted is not the models. It is the structure around them: orchestration and audit separated from implementation, output reviewed like any production change, claims verified before anything ships. That review has caught embedded PII in a distributable file, staging data presented as production, and access-control claims marked verified that were never tested. Nothing ships on assertion.</p>
-      </div>
-    </section>
-
-    <section class="method-section" id="method">
-      <div class="section-intro method-heading">
-        <p class="section-tag">DEPLOYMENT METHOD</p>
-        <h2>Method: how a deployment runs</h2>
-      </div>
-      <ol class="method-list">
-        <li><span>01</span><h3>Observe the real work</h3><p>Start with the physical process, the operators, and the ugly handoffs. Do not start with a software feature list.</p></li>
-        <li><span>02</span><h3>Model states and invariants</h3><p>Turn tribal knowledge into explicit configuration, lifecycle states, permissions, and rules that survive scale.</p></li>
-        <li><span>03</span><h3>Encode the guardrails</h3><p>Put release gates, role boundaries, provenance, and failure handling on the server side where they are enforceable.</p></li>
-        <li><span>04</span><h3>Instrument the truth</h3><p>Expose operational state, preserve failed hypotheses, and separate measured evidence from estimates and interpretation.</p></li>
-        <li><span>05</span><h3>Ship the whole system</h3><p>Own migrations, tests, deployment, documentation, recovery paths, and the interface people use.</p></li>
-      </ol>
-      <p class="method-close">This is the same loop whether the user is my own plant floor or someone else's: discover the real workflow, encode its constraints, integrate with the systems that already exist, instrument the truth, and stay accountable after go-live.</p>
-    </section>
-
-    <section class="about-section" id="about">
-      <p class="section-tag light">ABOUT / CURRENT DIRECTION</p>
-      <div class="about-grid">
-        <h2>I am most useful where physical operations, enterprise systems, and AI meet.</h2>
-        <div class="about-copy">
-          <p>I work inside an industrial robotics company and build production software beyond my formal lane. My advantage is not “knowing some code.” It is being able to see the operating system hidden inside a physical process. I own the technical and organizational work required to make it real.</p>
-          <p>I am exploring remote roles in manufacturing systems, enterprise applications, industrial AI, and physical-AI deployment.</p>
-          <dl class="about-facts">
-            <div><dt>BASED</dt><dd>Boerne / San Antonio, Texas</dd></div>
-            <div><dt>EDUCATION</dt><dd>B.S. Mechanical Engineering, UT San Antonio, summa cum laude, 4.0</dd></div>
-            <div><dt>WORK STYLE</dt><dd>Cross-functional · owner mentality</dd></div>
-          </dl>
+    <section class="method" id="method" aria-labelledby="method-title">
+      <div class="section-heading method-heading">
+        <div>
+          <p class="eyebrow">Deployment method</p>
+          <h2 id="method-title">How a deployment runs.</h2>
         </div>
+        <ol class="method-list">
+          <li><span>01</span><b>Observe the real work.</b> Start with operators, physical process, and handoffs.</li>
+          <li><span>02</span><b>Model states and invariants.</b> Make configuration, permissions, and lifecycle rules explicit.</li>
+          <li><span>03</span><b>Encode the guardrails.</b> Put gates, provenance, and failure handling on the server.</li>
+          <li><span>04</span><b>Instrument the truth.</b> Separate measured evidence, estimates, and interpretation.</li>
+          <li><span>05</span><b>Ship the whole system.</b> Own migrations, tests, documentation, recovery, and support.</li>
+        </ol>
+      </div>
+
+      <div class="method-evidence">
+        <p>Discovery is where deployments are won: the flagship system exists because I sat with Product, Engineering, supply chain, and external builders, worked directly with the VP of Operations on systemic gaps, and encoded what the floor actually does. Adoption is enforced by design and earned by support: external contract builders work inside the system under scoped permissions, operators run tooling packaged for non-technical users, and the documentation standard I authored is enforced organization-wide.</p>
+        <p>I run multi-agent AI workflows on business-critical work daily. The reason they can be trusted is not the models. It is the structure around them: orchestration and audit separated from implementation, output reviewed like any production change, claims verified before anything ships. That review has caught embedded PII in a distributable file, staging data presented as production, and access-control claims marked verified that were never tested. Nothing ships on assertion. The evaluation discipline is the same: calibrated holdouts I label blind, frozen evaluation instruments, and precision published next to every claim.</p>
+        <p class="integration-line"><b>Integration surface:</b> ERPNext to GitLab, production imaging, device log ingestion, and agent access to GitLab and Microsoft 365 via MCP.</p>
       </div>
     </section>
 
-    <section class="contact-section">
-      <p class="section-tag light">LET’S BUILD SOMETHING THAT HAS TO WORK</p>
-      <p class="availability">Open to senior remote roles deploying AI and enterprise systems into physical operations.</p>
-      <h2>Need someone who can cross the boundary?</h2>
-      <p>Start with the work. Then let’s talk about the system behind yours.</p>
-      <div class="contact-links">
-        <a href="mailto:mlawsonking@gmail.com">Email ↗</a>
-        <a href="https://www.linkedin.com/in/mlawsonking/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-        <a href="https://github.com/mlawsonking" target="_blank" rel="noreferrer">GitHub ↗</a>
+    <section class="background" id="about" aria-labelledby="about-title">
+      <p class="eyebrow">Background</p>
+      <div>
+        <h2 id="about-title">Physical engineering and production software.</h2>
+        <p>I work inside industrial robotics and build production systems beyond my formal lane. I am most useful where physical operations, enterprise systems, and AI meet.</p>
+        <p class="education"><b>Education</b> B.S. Mechanical Engineering, UT San Antonio, summa cum laude, 4.0</p>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">Availability</p>
+      <h2 id="contact-title">Let’s talk about the deployment.</h2>
+      <p>Open to senior remote roles deploying AI and enterprise systems into physical operations.</p>
+      <div class="actions contact-actions" aria-label="Contact actions">
+        <a class="action" href="#flagship">View flagship deployment</a>
+        <a class="action" href="/resume.pdf">Resume (PDF)</a>
+        <a class="action" href="mailto:mlawsonking@gmail.com">Email</a>
       </div>
     </section>
   </main>

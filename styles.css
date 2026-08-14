@@ -55,7 +55,7 @@ p, h1, h2, h3, dl, dd, figure { margin-top: 0; }
 .flagship-heading > p { max-width: 680px; margin: 0; color: var(--muted); font-size: 1rem; }
 .case-study { border-top: 1px solid var(--ink); }
 .case-part { padding: 1.35rem 0; display: grid; grid-template-columns: minmax(150px, .42fr) minmax(0, 1.58fr); gap: clamp(1.5rem, 4vw, 4rem); border-bottom: 1px solid var(--line); }
-.case-label { margin: .25rem 0 0; }
+.case-label { margin: .25rem 0 0; font-size: 13px; letter-spacing: .09em; }
 .case-part h3 { margin-bottom: .5rem; font-size: clamp(1.35rem, 2vw, 1.75rem); line-height: 1.2; letter-spacing: -.02em; }
 .case-part p:not(.case-label) { max-width: 920px; margin-bottom: 0; color: #49463f; }
 .stage-list { margin: 1rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); list-style: none; border-top: 1px solid var(--ink); }

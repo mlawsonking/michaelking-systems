@@ -1,0 +1,18 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.michaelking.systems"
+        }
+      ],
+      "destination": "https://michaelking.systems/$1",
+      "permanent": true
+    }
+  ]
+}

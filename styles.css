@@ -51,7 +51,7 @@ p, h1, h2, h3, dl, dd, figure { margin-top: 0; }
 .record-table dd { margin: 0; font-size: .9rem; font-weight: 560; }
 
 .flagship { background: var(--paper-deep); border-bottom: 1px solid var(--ink); }
-.flagship-heading { margin-bottom: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 6vw, 6rem); align-items: end; }
+.flagship-heading { margin-bottom: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 6vw, 6rem); align-items: center; }
 .flagship-heading h2 { font-size: clamp(2.75rem, 4vw, 3.5rem); }
 .flagship-heading > p { max-width: 680px; margin: 0; color: var(--muted); font-size: 1rem; }
 .case-study { border-top: 1px solid var(--ink); }

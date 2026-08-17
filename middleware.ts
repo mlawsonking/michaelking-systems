@@ -12,7 +12,11 @@ export const config = {
 };
 
 const BOT_PATTERN =
-  /bot|crawl|spider|slurp|preview|fetch|monitor|scan|curl|wget|python-requests|headless/i;
+  /bot|crawl|spider|slurp|preview|monitor|scan|curl|wget|python-requests|headless/i;
+
+// Programmatic clients: not classic crawlers, often an AI tool or service reading
+// the site on someone's behalf. Worth seeing, labeled distinctly.
+const MACHINE_PATTERN = /undici|node|axios|okhttp|go-http-client|java\/|libwww|httpx|aiohttp/i;
 
 export default async function middleware(request: Request): Promise<Response | undefined> {
   try {
@@ -31,13 +35,18 @@ export default async function middleware(request: Request): Promise<Response | u
     const referer = h.get("referer") ?? "direct";
     const uaShort = ua.split(")")[0].slice(0, 60);
 
+    const isMachine = MACHINE_PATTERN.test(ua);
     const line = `${url.pathname} | ${decodeURIComponent(city)} ${region} ${country} | ${ip} | from: ${referer} | ${uaShort}`;
 
     // Fire-and-forget with a short timeout; never block or fail the page.
     await Promise.race([
       fetch(`https://ntfy.sh/${topic}`, {
         method: "POST",
-        headers: { Title: `visit: ${url.pathname}`, Priority: "low", Tags: "eye" },
+        headers: {
+          Title: `${isMachine ? "fetch" : "visit"}: ${url.pathname}`,
+          Priority: isMachine ? "min" : "low",
+          Tags: isMachine ? "robot" : "eye",
+        },
         body: line,
       }),
       new Promise((resolve) => setTimeout(resolve, 1500)),

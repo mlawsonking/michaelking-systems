@@ -16,7 +16,10 @@ const BOT_PATTERN =
 
 // Programmatic clients: not classic crawlers, often an AI tool or service reading
 // the site on someone's behalf. Worth seeing, labeled distinctly.
-const MACHINE_PATTERN = /undici|node|axios|okhttp|go-http-client|java\/|libwww|httpx|aiohttp/i;
+const MACHINE_PATTERN =
+  /undici|node|axios|okhttp|go-http-client|java\/|libwww|httpx|aiohttp|iPhone OS 1[0-5]_|Android [4-9][.;]/i;
+// The trailing patterns catch crawlers wearing ancient-phone costumes: no real 2026
+// visitor runs iOS <=15 or Android <=9, but Chinese scraper fleets ship those UAs.
 
 export default async function middleware(request: Request): Promise<Response | undefined> {
   try {

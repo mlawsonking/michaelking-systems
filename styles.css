@@ -76,6 +76,7 @@ p, h1, h2, h3, dl, dd, figure { margin-top: 0; }
 .svg-stage text, .svg-role text { fill: var(--ink); font-family: var(--sans); font-size: 14px; font-weight: 700; text-anchor: middle; }
 .svg-stage text:first-of-type { fill: var(--orange-text); font-family: var(--mono); font-size: 13px; }
 .svg-gate path { fill: var(--orange); }
+.svg-role text { font-size: 13px; }
 .svg-gate text { display: none; fill: var(--muted); font-family: var(--mono); font-size: 8px; text-anchor: middle; text-transform: uppercase; }
 .final-stage rect { fill: var(--ink); }
 .final-stage text { fill: var(--paper); }

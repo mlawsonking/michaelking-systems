@@ -100,11 +100,12 @@ p, h1, h2, h3, dl, dd, figure { margin-top: 0; }
 .selected-systems { border-bottom: 1px solid var(--ink); }
 .selected-systems .compact-heading { margin-bottom: 1.5rem; display: grid; grid-template-columns: .45fr 1.55fr; gap: 2rem; }
 .system-rows { border-top: 1px solid var(--ink); }
-.system-rows article { padding: 1rem 0; display: grid; grid-template-columns: minmax(220px, .8fr) minmax(0, 1.6fr) 130px; gap: 2rem; align-items: start; border-bottom: 1px solid var(--line); }
+.system-rows article { padding: 1rem 0; display: grid; grid-template-columns: minmax(220px, .8fr) minmax(0, 1.6fr) 150px; gap: 2rem; align-items: start; border-bottom: 1px solid var(--line); }
 .system-rows h3 { margin-bottom: .35rem; font-size: 1.35rem; }
 .capability-label { margin: 0; font-size: 11px; }
 .system-rows article > p { margin: 0; color: var(--muted); font-size: .9rem; }
-.row-links { display: flex; justify-content: flex-end; gap: .9rem; }
+.row-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .45rem .9rem; }
+.row-links a { white-space: nowrap; }
 .private-label { margin: .2rem 0 0; color: var(--muted); text-align: right; font-size: 11px; }
 
 .method { background: var(--ink); color: var(--paper); }

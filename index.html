@@ -58,7 +58,7 @@
         <div><dt>Customer sites</dt><dd>Commissioned robotic systems in the US and EU; field lessons converted into runbooks</dd></div>
         <div><dt>Production system</dt><dd>One governed lifecycle from engineering configuration through installed base, serving four internal functions and external contract builders</dd></div>
         <div><dt>Deployment discipline</dt><dd>24 idempotent migrations through a twice-migrated candidate sandbox; zero rollbacks</dd></div>
-        <div><dt>Live operations</dt><dd>Liveness watchdog built after a silent scheduler failure; first real catch paged in 1 hour 46 minutes</dd></div>
+        <div><dt>Live operations</dt><dd>Liveness watchdog on scheduled jobs, paging the system owner when a job stops reporting</dd></div>
         <div><dt>Access model</dt><dd>11 server-enforced roles including row-scoped external suppliers</dd></div>
       </dl>
     </section>
@@ -76,8 +76,8 @@
         <section class="case-part">
           <p class="case-label">01 / Problem</p>
           <div>
-            <h3>A recurring cross-functional scramble.</h3>
-            <p>Product and Engineering manually assembled every builder package. The prior process consumed an estimated 200 hours of constrained senior Product and Engineering work per machine.</p>
+            <h3>A bespoke package for every machine.</h3>
+            <p>Each configurable machine needs its own builder package, drawn from Product and Engineering. Assembling one by hand took an estimated 200 hours of senior Product and Engineering time per machine.</p>
           </div>
         </section>
 
@@ -215,8 +215,8 @@
       </div>
 
       <div class="method-evidence">
-        <p>Discovery is where deployments are won: the flagship system exists because I sat with Product, Engineering, supply chain, and external builders, worked directly with the VP of Operations on systemic gaps, and encoded what the floor actually does. Adoption is enforced by design and earned by support: external contract builders work inside the system under scoped permissions, operators run tooling packaged for non-technical users, and the documentation standard I authored is enforced organization-wide.</p>
-        <p>AI-assisted work earns trust from the structure around it, not from the models: orchestration and audit kept separate from implementation, output reviewed like any production change, claims verified before anything ships. That review has caught embedded PII in a distributable file, staging data presented as production, and access-control claims marked verified that were never tested. Nothing ships on assertion. The evaluation discipline is the same: calibrated holdouts I label blind, frozen evaluation instruments, and misses published beside catches.</p>
+        <p>Discovery is where deployments are won: the flagship system exists because I sat with Product, Engineering, supply chain, and external builders, worked directly with the VP of Operations on priorities, and encoded what the floor actually does. Adoption is enforced by design and earned by support: external contract builders work inside the system under scoped permissions, operators run tooling packaged for non-technical users, and the documentation standard I authored is enforced organization-wide.</p>
+        <p>AI-assisted work earns trust from the structure around it, not from the models: orchestration and audit kept separate from implementation, output reviewed like any production change, claims verified before anything ships. That review exists to catch what AI-assisted work tends to get wrong, such as claims marked verified without a test behind them, before anything ships. Nothing ships on assertion. The evaluation discipline is the same: calibrated holdouts I label blind, frozen evaluation instruments, and misses published beside catches.</p>
         <p class="integration-line"><b>Integration surface:</b> ERPNext to GitLab, production imaging, and device log ingestion.</p>
       </div>
     </section>
@@ -225,15 +225,15 @@
       <p class="eyebrow">Background</p>
       <div>
         <h2 id="about-title">Physical engineering and production software.</h2>
-        <p>I work inside industrial robotics and build production systems beyond my formal lane. I am most useful where physical operations, enterprise systems, and AI meet.</p>
+        <p>I work inside industrial robotics and build the production systems around it. I am most useful where physical operations, enterprise systems, and AI meet.</p>
         <p class="education"><b>Education</b> B.S. Mechanical Engineering, UT San Antonio, summa cum laude, 4.0</p>
       </div>
     </section>
 
     <section class="contact" aria-labelledby="contact-title">
-      <p class="eyebrow">Availability</p>
+      <p class="eyebrow">Contact</p>
       <h2 id="contact-title">Let’s talk about the deployment.</h2>
-      <p>Open to senior roles, remote or based in Texas, deploying AI and enterprise systems into physical operations.</p>
+      <p>Get in touch about industrial systems work: deploying AI and enterprise software into physical operations.</p>
       <div class="actions contact-actions" aria-label="Contact actions">
         <a class="action" href="#flagship">View flagship deployment</a>
         <a class="action" href="/resume.pdf">Resume (PDF)</a>

@@ -1,0 +1,242 @@
+{
+ "generated": "2026-11-23T20:17:00.943088Z",
+ "scopes": [
+  {
+   "scope": "mlawsonking's projects (team, slug mlawsonkings-projects)",
+   "id": "team_Kzzdcw9bEIQbLCKWBZK88rim",
+   "error": null,
+   "domains": [
+    "michaelking.systems (verified, external nameservers, NO project attached in this scope)",
+    "hospitalreceipts.org",
+    "onscript.news"
+   ],
+   "projects": [
+    {
+     "name": "grantforge",
+     "framework": null,
+     "production_url": "https://grantforge-three.vercel.app",
+     "domains": [
+      "grantforge-three.vercel.app"
+     ],
+     "last_deploy": "2026-07-31 (dpl_8J4gXn1j..., READY, production, commit 'Remove the debug endpoint...')",
+     "is_game": false,
+     "evidence": "Repo grantforge; SSO protection on (all_except_custom_domains). Name/commit messages indicate non-game; not inspected further."
+    },
+    {
+     "name": "plainspeak",
+     "framework": null,
+     "production_url": "https://plainspeak-navy.vercel.app",
+     "domains": [
+      "plainspeak-navy.vercel.app"
+     ],
+     "last_deploy": "2026-04-29 (dpl_3h1zQ3r8..., READY)",
+     "is_game": false,
+     "evidence": "Repo plainspeak (archived); commits 'Update index.html'; name suggests plain-language tool, not inspected."
+    }
+   ]
+  },
+  {
+   "scope": "personal (Hobby) scope",
+   "id": null,
+   "projects": [],
+   "error": "get_auth_user returned 404 not_found 'User not found'; list_projects/list_domains with no teamId returned the same 2 team projects (grantforge, plainspeak) and 0 domains, i.e. no distinct personal scope reachable/visible. list_teams returned only 1 team."
+  }
+ ],
+ "repos_checked": [
+  {
+   "repo": "onscript",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "theexhaust",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "MCP",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "navier-stokes",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "pricescope",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "engine3-comps",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "couchbox",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "cortex",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "plexwheel",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "between",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "grantforge",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "plant-guy",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "traceforge",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "code-guard-action",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "assessment-commons",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "mlawsonking",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "mlawsonking.github.io",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "plainspeak",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "trackerchecker",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "PENG_Lab",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "PoliticianTweeting",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "PDFSplitter",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "deep_learning",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "between-mirror/between",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "awesome-mcp-servers",
+   "is_game": null,
+   "evidence": "UNVERIFIED: session has no GitHub access to this repo (gh api 403 'not enabled for this session'); add_repo was denied by the permission classifier, so contents/README were not read."
+  },
+  {
+   "repo": "mlawsonking/michaelking-systems",
+   "is_game": false,
+   "evidence": "Static portfolio (index.html, styles.css, middleware.ts, vercel.json). Listing readable via local checkout / gh api. vercel.json sets CSP frame-ancestors 'none' and X-Frame-Options DENY on /(.*)."
+  },
+  {
+   "repo": "mlawsonking/job-hunt",
+   "is_game": false,
+   "evidence": "Top-level listing only (per instructions): .github .gitignore README.md SPEC.md apply apps config dashboard.md data docs hunt ops reports requirements.txt tests. Job-search tooling layout; not a game. Content not read."
+  },
+  {
+   "repo": "(lead guesses by name only, unverified)",
+   "is_game": null,
+   "evidence": "Names suggest non-games (navier-stokes simulation, pricescope, grantforge, traceforge, MCP, awesome-mcp-servers fork, code-guard-action); onscript, theexhaust, couchbox, cortex, plexwheel, between, plant-guy, engine3-comps cannot be ruled out from names."
+  }
+ ],
+ "published_games": [
+  {
+   "slug": "foundry-severance",
+   "title": "FOUNDRY \u2014 A Question of Severance",
+   "one_line": "Turn-based roguelike (Canvas2D tiles) where you play a robot, a 'unit' of the sealed Vindhall Works factory 19 years after S.U.R.T. severed the staff; pick kit/condition, seed, optional Ironman; has a free/paid edition split (data2.js, sprites2.js).",
+   "controls": "Keyboard-first: arrows / hjkl / yubn / numpad to move+bump; . or z wait, s search, m map, i inventory, g/, pick up, f fire/cast, r, p, x examine, c close door, < > stairs, Enter, Esc menu/skip opening, ? How to Play, Shift+M mute; mouse hover tooltips, click buttons and minimap. No touch handlers.",
+   "repo": "unknown (not determinable: no GitHub access; Vercel project not reachable)",
+   "vercel_scope": "NOT in any reachable scope",
+   "vercel_project": "unknown",
+   "production_url": "https://foundry-severance.vercel.app/",
+   "framework": "none/static: plain HTML + 15 JS files (no bundler), CSS, Canvas2D with procedurally painted sprites, no image assets",
+   "last_deploy": "unknown (no Vercel record). Response last-modified equals request time (served fresh), not informative.",
+   "loads": true,
+   "load_ms": 930,
+   "console_errors": [],
+   "script_files": 14,
+   "total_bytes_approx": "~2.2 MB JS+CSS uncompressed (js 2.2MB: data.js 449k, rules 406k, ui 400k, sprites 304k, data2 193k, render 134k, mapgen 111k, sprites2 105k, model 99k, ai 66k, save/sound/util/main ~27k; css 54k; html 7.6k)",
+   "mobile": {
+    "fits_390": false,
+    "touch_input": false,
+    "notes": "document.documentElement.scrollWidth==390 only because body has overflow:hidden; the title screen's 'Your Unit' setup column overflows to x=413 and #titleScreen scrollWidth=508, so the 'FOUNDRY' title and setup form are clipped with no way to scroll. CSS has no width @media queries (only prefers-reduced-motion), no touch/pointer handlers anywhere. A tap on POWER ON does start the game and renders the opening at 390 wide, but gameplay is keyboard-only (Esc skips opening; movement keys) so effectively unplayable on phone."
+   },
+   "framing": {
+    "x_frame_options": null,
+    "csp": null,
+    "frame_ancestors": null,
+    "iframe_test": "renders",
+    "notes": "No X-Frame-Options or CSP headers on / or /js/*; only access-control-allow-origin:* . Iframe from http://localhost:8080 rendered with title screen present (#btnNew found inside frame), 0 console messages. Embedding inside michaelking.systems is blocked only by michaelking.systems's own header policy (frame-src falls back to default-src 'self' and would block this origin) - that is the portfolio's CSP, not the game's."
+   },
+   "can_we_change_headers": "unknown / probably yes only via the owning Vercel project (vercel.json headers), but that project is not in any reachable scope (team has only grantforge and plainspeak). Not needed for embedding: game already frameable. Parent page would need CSP frame-src / default-src change.",
+   "screenshots": [
+    "evidence/games-shots/foundry-severance-desktop-1280x800-title.png",
+    "evidence/games-shots/foundry-severance-desktop-1280x800.png",
+    "evidence/games-shots/foundry-severance-mobile-390x844-title.png",
+    "evidence/games-shots/foundry-severance-mobile-390x844.png",
+    "evidence/games-shots/foundry-severance-iframe-test.png"
+   ],
+   "login_required": false,
+   "desktop_check": "loads at 1280x800 in 930 ms, 0 console errors; POWER ON then arrow keys changed the screen (opening cinematic, keyboard advances)."
+  }
+ ],
+ "unpublished_or_broken": [
+  {
+   "name": "Word From Below",
+   "where": "https://claude.ai/artifact/Lxq1VQLbig22Z9qaX3GvuS (private Claude artifact)",
+   "reason": "Unpublished/private by instruction; not fetched, not published, no URL checks done.",
+   "evidence": "Recorded from the task brief only; no independent verification."
+  }
+ ],
+ "unreachable": [
+  "GitHub: all repos except michaelking-systems and job-hunt top-level listing returned HTTP 403 'not enabled for this session'; add_repo(couchbox) denied by permission classifier (no workaround attempted).",
+  "Vercel: get_auth_user 404 'User not found'; no personal-scope projects distinguishable. Projects named michaelking-systems and the one serving foundry-severance.vercel.app are in NO reachable scope (only 1 team, 2 projects).",
+  "Vercel: domain michaelking.systems exists in team but is attached to no project in the team's project list (it is served by Vercel per response headers, so the project lives elsewhere, e.g. another account)."
+ ],
+ "notes": "Curl: foundry-severance.vercel.app / -> 200 text/html, no login. The michaelking.systems site serves CSP default-src 'self' ... frame-ancestors 'none' and X-Frame-Options DENY from vercel.json, so it can never be framed by others, and its own frame-src is default-src 'self' so it cannot embed the game without a CSP change. Local checkout is clean; only evidence files added."
+}

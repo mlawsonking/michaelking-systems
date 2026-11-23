@@ -1,0 +1,10 @@
+/ 200 bf9cbfab46323df6
+/index.html 308 7c040f8633b8823d
+/index 308 7c040f8633b8823d
+/resume.pdf 200 3e8763d74659bfd7
+/styles.css 200 26f0cb019103ef39
+/og.png 200 16fbf69572c21d8a
+/favicon.svg 200 3806961828f4dfd3
+/vercel.json 404 f2bd90ded4ad0d84
+/middleware.ts 404 f2bd90ded4ad0d84
+/does-not-exist 404 f2bd90ded4ad0d84
